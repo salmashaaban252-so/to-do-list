@@ -10,6 +10,7 @@ const __dirname = path.dirname(__filename);
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/to-do-list/",
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
